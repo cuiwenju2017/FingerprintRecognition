@@ -2,7 +2,6 @@ package com.shanjing.fingerprint.bean;
 
 /**
  * 验证窗口的样式
- * Created by ZuoHailong on 2019/7/9.
  */
 public class VerificationDialogStyleBean {
 

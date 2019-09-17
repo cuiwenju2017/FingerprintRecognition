@@ -11,7 +11,6 @@ import com.shanjing.fingerprint.uitls.CipherHelper;
 
 /**
  * Android M == 6.0
- * Created by ZuoHailong on 2019/7/9.
  */
 @RequiresApi(api = Build.VERSION_CODES.M)
 public class FingerprintImplForAndrM implements IFingerprint {

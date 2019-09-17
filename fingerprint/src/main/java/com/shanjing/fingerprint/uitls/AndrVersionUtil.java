@@ -2,9 +2,6 @@ package com.shanjing.fingerprint.uitls;
 
 import android.os.Build;
 
-/**
- * Created by ZuoHailong on 2019/7/9.
- */
 public class AndrVersionUtil {
     /**
      * 高于Android P（9.0）

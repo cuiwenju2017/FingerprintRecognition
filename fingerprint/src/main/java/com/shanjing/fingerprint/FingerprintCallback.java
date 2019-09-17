@@ -2,7 +2,6 @@ package com.shanjing.fingerprint;
 
 /**
  * 验证结果回调，供使用者调用
- * Created by ZuoHailong on 2019/7/9.
  */
 public interface FingerprintCallback {
 

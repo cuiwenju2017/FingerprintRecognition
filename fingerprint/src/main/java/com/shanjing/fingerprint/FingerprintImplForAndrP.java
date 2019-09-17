@@ -13,7 +13,6 @@ import com.shanjing.fingerprint.uitls.CipherHelper;
 
 /**
  * Android P == 9.0
- * Created by ZuoHailong on 2019/7/9.
  */
 @RequiresApi(api = Build.VERSION_CODES.P)
 public class FingerprintImplForAndrP implements IFingerprint {

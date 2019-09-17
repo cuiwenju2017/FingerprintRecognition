@@ -6,9 +6,6 @@ import androidx.annotation.NonNull;
 import com.shanjing.fingerprint.bean.VerificationDialogStyleBean;
 import com.shanjing.fingerprint.uitls.AndrVersionUtil;
 
-/**
- * Created by ZuoHailong on 2019/7/9.
- */
 public class FingerprintVerifyManager {
 
     public FingerprintVerifyManager(Builder builder) {

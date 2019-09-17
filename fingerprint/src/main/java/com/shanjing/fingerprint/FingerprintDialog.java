@@ -15,9 +15,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import com.shanjing.fingerprint.bean.VerificationDialogStyleBean;
 
-/**
- * Created by ZuoHailong on 2019/3/12.
- */
 public class FingerprintDialog extends DialogFragment {
 
     private static FingerprintDialog mDialog;

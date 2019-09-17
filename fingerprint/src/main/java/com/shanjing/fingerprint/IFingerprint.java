@@ -4,9 +4,6 @@ import android.app.Activity;
 import android.content.Context;
 import com.shanjing.fingerprint.bean.VerificationDialogStyleBean;
 
-/**
- * Created by ZuoHailong on 2019/7/9.
- */
 public interface IFingerprint {
 
     /**
