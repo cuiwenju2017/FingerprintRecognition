@@ -7,7 +7,6 @@
     android:gravity="center"
     android:orientation="vertical">
 
-
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/ivFingerprint"
         android:layout_width="60dp"
