@@ -65,21 +65,25 @@ public class TwoActivity extends AppCompatActivity {
         @Override
         public void onFailed() {
             Toast.makeText(TwoActivity.this, getString(R.string.biometricprompt_verify_failed), Toast.LENGTH_SHORT).show();
+            binding.sc.setChecked(false);
         }
 
         @Override
         public void onUsepwd() {
             Toast.makeText(TwoActivity.this, getString(R.string.fingerprint_usepwd), Toast.LENGTH_SHORT).show();
+            binding.sc.setChecked(false);
         }
 
         @Override
         public void onCancel() {
             Toast.makeText(TwoActivity.this, getString(R.string.fingerprint_cancel), Toast.LENGTH_SHORT).show();
+            binding.sc.setChecked(false);
         }
 
         @Override
         public void onHwUnavailable() {
             Toast.makeText(TwoActivity.this, getString(R.string.biometricprompt_finger_hw_unavailable), Toast.LENGTH_SHORT).show();
+            binding.sc.setChecked(false);
         }
 
         @Override
