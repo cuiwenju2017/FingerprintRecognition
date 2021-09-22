@@ -12,4 +12,6 @@
 
 我的公众号：**Android技术交流平台**
 
+![d](https://github.com/cuiwenju2017/FingerprintRecognition/blob/master/image/d.jpg)
+
 我的邮箱：**1755140651@qq.com** 欢迎交流与投稿
