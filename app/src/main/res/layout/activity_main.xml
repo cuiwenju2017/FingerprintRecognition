@@ -4,27 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
     android:gravity="center"
     android:orientation="vertical">
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/ivFingerprint"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        app:srcCompat="@drawable/biometricprompt_ic_finger_print"
-        tools:ignore="VectorDrawableCompat" />
-
-    <TextView
-        android:id="@+id/tvTip"
+    <EditText
+        android:id="@+id/et_username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="20dp"
-        android:gravity="center"
-        android:text="点击验证指纹"
-        android:textColor="@color/biometricprompt_color_333333"
-        android:textSize="16sp" />
+        android:hint="请输入用户名" />
 
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录" />
+
+    <TextView
+        android:id="@+id/tv_fing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="指纹登录"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:visibility="gone" />
 </LinearLayout>

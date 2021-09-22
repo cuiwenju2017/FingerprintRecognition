@@ -10,6 +10,6 @@
 
 [我的GitHub →](https://github.com/cuiwenju2017)
 
-我的公众号：**Android交流平台**
+我的公众号：**Android技术交流平台**
 
 我的邮箱：**1755140651@qq.com** 欢迎交流与投稿
