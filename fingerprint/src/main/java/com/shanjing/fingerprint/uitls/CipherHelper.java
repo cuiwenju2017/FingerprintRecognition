@@ -68,7 +68,7 @@ public class CipherHelper {
         } catch (KeyPermanentlyInvalidatedException e) {
             _keystore.deleteEntry(KEY_NAME);
             if (retry) {
-                createCipher(false);
+                return createCipher(false);
             } else {
                 throw new Exception("Could not create the cipher for fingerprint authentication.", e);
             }
